@@ -1,0 +1,56 @@
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="tel"], input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+.subtotal {
+    font-weight: bold;
+}
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+    align-self: center;
+}
